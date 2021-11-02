@@ -13,9 +13,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Colour-changing app!
-        </h1>
+
+      <Heading as="h1" size="2xl" mb="2">
+      <Link color="teal" href="https://nextjs.org">Colour-changing app!</Link>
+        </Heading>
 
         <p className={styles.description}>
           Get started by editing{' '}
